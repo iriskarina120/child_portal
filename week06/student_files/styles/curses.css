@@ -39,11 +39,10 @@ h3 {
 }
 
 
-#homeParagraph {    
+#sortParagraph {    
     font-family:"Original Surfer", georgia, sans-serif;    
     text-align: justify;
-    padding-left: 70px;
-    padding-right: 70px;   
+    
 }
 header {
     display: grid;
@@ -71,6 +70,11 @@ label {
     display: inline-block;    
     text-align: center;
 }
+body {
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
 
 main {
     text-align: center;
@@ -126,12 +130,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center; 
-}
-
-/* Class Selectors */
-.active {
-    background-color: white;
-    color: black;
 }
 
 .open li {
