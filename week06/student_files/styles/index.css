@@ -1,5 +1,3 @@
-/* HTML Selectors */
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Original+Surfer&display=swap");
 
 article {
@@ -10,72 +8,68 @@ div {
     margin: 10px;
     text-align: center;
 }
+
 html {
     background-color: #c1beba; /* light gray */
   }
 
+footer {
+    background-color: #FE5F55;
+    color: white;   
+    padding: 5px;
+    text-align: center;    
+}
 
 .logo-box img {
     grid-column: 1;
     grid-row: 1/2;
-    width: 220px;    
+    width: 170px;    
     margin-left: -25px;
     padding-left: 100px;
   }
 h1, h2, h3, h4, h5, h6 {
     font-family:"Original Surfer", georgia, sans-serif;
 }
-    
-h1 {
-    font-size: 6em;
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Original Surfer", georgia, sans-serif;
+}
+
+h1 {   
     color: #FE5F55;    
     margin-top: 5px;
 }
-h2 {
-    font-size: 3.5em;
+h2 {   
     color: black;
 }
-h3 {    
-    font-size: 2.5em;
+h3 {     
     color: #FE5F55;
 }
-h4 {
-    font-size: 2em;
-}
 
-#sortBy {    
-    font-size: 1em;    
-}
-
-#homeParagraph {    
+#sortParagraph {    
     font-family:"Original Surfer", georgia, sans-serif;
-    font-size: 2.5em;
-    text-align: justify;
-    padding-left: 70px;
-    padding-right: 70px;   
+     
 }
 header {
     display: grid;
     grid-template-columns: 200px auto;
     align-items: center;
     text-align: center;
-    margin: auto;    
-    
-    height: 300px;
+    margin: auto;   
 }
 header h1 {
     grid-column: 2;
+    font-size: 2em;
 }
 body {
     max-width: 70%;
     margin: 0 auto;
     background-color: white;
     padding: 1em;
-    
   }
-
 img {
-    width: 70%;
+    width: 80%;
 }
 
 label {
@@ -89,14 +83,12 @@ main {
 
 nav {
     background-color: #FE5F55;    
-    height: 100px;
     color: white;
 }
 
 nav ul {
     list-style-type: none;    
-    display: grid;
-    line-height: 1.8em;
+    display: grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;    
 }
 
@@ -113,8 +105,7 @@ nav ul li {
 nav ul li a {
     color: white;
     display: block;
-    padding: 30px;
-    font-size: 40px;
+    padding: 30px;    
     text-decoration: none;
 }
 nav ul li a:hover {
@@ -125,19 +116,13 @@ nav ul li a:hover {
 nav a {
     transition: all 0.5s ease-in-out;
 }
-footer {
-    text-align: center;
-    background-color: #FE5F55;
-    color: white;
-    font-size: 2em;
-    padding: 5px;    
-}
 
 section {
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
+
 
 /* Class Selectors */
 .active {
@@ -149,6 +134,10 @@ section {
     display: block;
 }
 
+#curses {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
@@ -166,7 +155,7 @@ section {
     }
 
     #curses {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
