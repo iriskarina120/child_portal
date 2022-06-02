@@ -45,9 +45,7 @@ h3 {
 }
 header {
     display: grid;
-    grid-template-columns: 100px auto;
-    align-items: center;
-    text-align: center;
+    grid-template-columns: 100px auto;   
     margin: auto;   
 }
 header h1 {
