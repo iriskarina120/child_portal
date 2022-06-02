@@ -53,7 +53,7 @@ header h1 {
 }
 .logo-box img {
     grid-column: 1;
-    grid-row: 1/2;   
+    grid-row: 1;   
   }
 
 body {
@@ -162,6 +162,7 @@ section {
   /* beginning of media query */
   .home-grid,
   nav ul,
+  nav ul li a, 
   h1,
   .banner-box,
   .icon,
