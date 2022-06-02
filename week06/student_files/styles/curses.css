@@ -12,6 +12,14 @@ html {
     background-color: #c1beba; /* light gray */
   }
 
+footer {
+    background-color: #FE5F55;
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+    text-align: center;
+    
+}
 
 .logo-box img {
     grid-column: 1;
@@ -23,33 +31,38 @@ html {
 h1, h2, h3, h4, h5, h6 {
     font-family:"Original Surfer", georgia, sans-serif;
 }
-    
+
+a {
+    font-size: 1.5em;
+}   
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Original Surfer", georgia, sans-serif;
+}
+
 h1 {
-    
+    font-size: 6em;
     color: #FE5F55;    
     margin-top: 5px;
 }
-h2 {
-    
+h2 {   
     color: black;
 }
-h3 {    
-    
+h3 {     
     color: #FE5F55;
 }
 
-
 #sortParagraph {    
-    font-family:"Original Surfer", georgia, sans-serif;    
-    text-align: justify;
-    
+    font-family:"Original Surfer", georgia, sans-serif;
+    font-size: 1.8em;   
 }
 header {
     display: grid;
     grid-template-columns: 200px auto;
     align-items: center;
     text-align: center;
-    margin: auto;  
+    margin: auto;    
+    
+    height: 300px;
 }
 header h1 {
     grid-column: 2;
@@ -59,22 +72,15 @@ body {
     margin: 0 auto;
     background-color: white;
     padding: 1em;
-    
   }
-
 img {
-    width: 100px;
+    width: 70%;
 }
 
 label {
     display: inline-block;    
     text-align: center;
 }
-body {
-    max-width: 70%;
-    margin: 0 auto;
-    background-color: white;
-    padding: 1em;
 
 main {
     text-align: center;
@@ -88,8 +94,7 @@ nav {
 
 nav ul {
     list-style-type: none;    
-    display: grid;
-    line-height: 1.8em;
+    display: grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;    
 }
 
@@ -106,8 +111,7 @@ nav ul li {
 nav ul li a {
     color: white;
     display: block;
-    padding: 30px;
-    
+    padding: 30px;    
     text-decoration: none;
 }
 nav ul li a:hover {
@@ -118,13 +122,6 @@ nav ul li a:hover {
 nav a {
     transition: all 0.5s ease-in-out;
 }
-footer {
-    text-align: center;
-    background-color: #FE5F55;
-    color: white;
-    
-    padding: 5px;    
-}
 
 section {
     display: flex;
@@ -132,10 +129,21 @@ section {
     align-items: center; 
 }
 
+
+/* Class Selectors */
+.active {
+    background-color: white;
+    color: black;
+}
+
 .open li {
     display: block;
 }
 
+#curses {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
