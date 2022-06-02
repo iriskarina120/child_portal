@@ -158,3 +158,16 @@ section {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+@media screen and (max-width: 550px) {
+  /* beginning of media query */
+  .home-grid,
+  nav ul,
+  h1,
+  .banner-box,
+  .icon,
+  header {
+    display: block;
+  }
+
+  /* end of media query */
+}
