@@ -60,7 +60,7 @@ header {
 }
 header h1 {
     grid-column: 2;
-    font-size: 2em;
+    font-size: 3em;
 }
 body {
     max-width: 70%;
