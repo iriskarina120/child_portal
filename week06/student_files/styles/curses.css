@@ -23,7 +23,7 @@ footer {
 .logo-box img {
     grid-column: 1;
     grid-row: 1/2;
-    width: 220px;    
+    width: 170px;    
     margin-left: -25px;
     padding-left: 100px;
   }
@@ -60,6 +60,7 @@ header {
 }
 header h1 {
     grid-column: 2;
+    font-size: 2em;
 }
 body {
     max-width: 70%;
