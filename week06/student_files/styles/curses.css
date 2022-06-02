@@ -45,7 +45,7 @@ h3 {
 }
 header {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 100px auto;
     align-items: center;
     text-align: center;
     margin: auto;   
