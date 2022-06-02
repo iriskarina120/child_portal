@@ -20,13 +20,6 @@ footer {
     text-align: center;    
 }
 
-.logo-box img {
-    grid-column: 1;
-    grid-row: 1/2;
-    width: 170px;    
-    margin-left: -25px;
-    padding-left: 100px;
-  }
 h1, h2, h3, h4, h5, h6 {
     font-family:"Original Surfer", georgia, sans-serif;
 }
@@ -48,8 +41,7 @@ h3 {
 }
 
 #sortParagraph {    
-    font-family:"Original Surfer", georgia, sans-serif;
-     
+    font-family:"Original Surfer", georgia, sans-serif;     
 }
 header {
     display: grid;
@@ -59,9 +51,14 @@ header {
     margin: auto;   
 }
 header h1 {
-    grid-column: 2;
-    font-size: 3em;
+    grid-column: 2;    
 }
+.logo-box img {
+    grid-column: 1;
+    grid-row: 1/2;    
+    margin-left: -25px;
+    padding-left: 100px;
+  }
 body {
     max-width: 70%;
     margin: 0 auto;
