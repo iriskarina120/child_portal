@@ -162,7 +162,8 @@ section {
   /* beginning of media query */
   .home-grid,
   nav ul,
-  nav ul li a, 
+  nav ul li a,
+  nav ul li,
   h1,
   .banner-box,
   .icon,
