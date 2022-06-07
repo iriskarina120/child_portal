@@ -57,7 +57,7 @@ header h1 {
 }
 .logo-box img {
     grid-column: 1;
-    grid-row: 1;   
+      
   }
 body {
     max-width: 95%;
