@@ -57,8 +57,11 @@ header h1 {
 }
 .logo-box img {
     grid-column: 1;
-      
+    grid-row: 1;   
   }
+  img {
+    width: 80%;
+}
 body {
     max-width: 100%;
     margin: 0 auto;
@@ -78,7 +81,7 @@ body {
 #birthday img {
     border: 3px solid #c1beba; /* light gray */
     box-shadow: 5px 5px 5px #999;
-    height: 230px;    
+       
   }
   
 #information{
