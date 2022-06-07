@@ -49,16 +49,16 @@ h3 {
 }
 header {
     display: grid;
-    grid-template-columns: 200px auto;
-    align-items: center;
-    text-align: center;
+    grid-template-columns: 100px auto;   
     margin: auto;   
 }
 header h1 {
-    grid-column: 2;
-    grid-row: 1;
-    font-size: 2em;
+    grid-column: 2;    
 }
+.logo-box img {
+    grid-column: 1;
+    grid-row: 1;   
+  }
 body {
     max-width: 70%;
     margin: 0 auto;
