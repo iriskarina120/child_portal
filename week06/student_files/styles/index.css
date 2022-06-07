@@ -82,7 +82,7 @@ body {
   }
   
 #information{
-    grid-column: 2;
+    grid-column: 2/3;
     border: 3px solid #bbc1ba; /* light gray */
     box-shadow: 5px 5px 5px #999;
     background-color: #0fc7ce;
