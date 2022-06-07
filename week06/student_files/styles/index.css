@@ -60,7 +60,7 @@ header h1 {
     grid-row: 1;   
   }
 body {
-    max-width: 85%;
+    max-width: 95%;
     margin: 0 auto;
     background-color: white;
     padding: 1em;
