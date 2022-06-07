@@ -77,10 +77,10 @@ div img {
   align-items: center;  
   /*text-align: center;*/
 }
-#mural img {
+#birthday img {
     border: 3px solid #c1beba; /* light gray */
     box-shadow: 5px 5px 5px #999;
-      
+    height: 230px;    
   }
   
 #information{
