@@ -60,18 +60,18 @@ header h1 {
       
   }
 body {
-    max-width: 95%;
+    max-width: 100%;
     margin: 0 auto;
     background-color: white;
     padding: 1em;
   }
 
-div img {
+#mural img {
     max-width: auto;
 }
 #mural {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   align-items: center;  
   /*text-align: center;*/
 }
