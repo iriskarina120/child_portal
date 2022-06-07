@@ -163,6 +163,7 @@ section {
 }
 
 /* Media Queries */
+/* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
         flex-direction: row;
@@ -173,7 +174,7 @@ section {
     }
 
     nav ul li {
-        display: inline;
+        display: block;
         margin: 0 10px;
     }
 
@@ -186,4 +187,19 @@ section {
     #curses {
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
+@media screen and (max-width: 550px) {
+  /* beginning of media query */
+  .home-grid,
+  nav ul,
+  nav ul li a,
+  nav ul li,
+  h1,
+  .banner-box,
+  .icon,
+  header {
+    display: block;
+  }
+
+  /* end of media query */
 }
