@@ -60,16 +60,14 @@ header h1 {
     grid-row: 1;   
   }
 body {
-    max-width: 70%;
+    max-width: 85%;
     margin: 0 auto;
     background-color: white;
     padding: 1em;
   }
-img {
-    max-width: 80%;
-}
+
 div img {
-    max-width: 30%;
+    max-width: auto;
 }
 #mural {
   display: grid;
