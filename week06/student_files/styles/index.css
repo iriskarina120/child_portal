@@ -87,7 +87,7 @@ body {
     box-shadow: 5px 5px 5px #999;
     background-color: #0fc7ce;
 }
-#birthday{
+.birthday{
     grid-column: 1;
     border: 3px solid #c1beba; /* light gray */
     box-shadow: 5px 5px 5px #999;
