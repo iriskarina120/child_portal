@@ -31,11 +31,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {   
     color: #FE5F55;    
     margin-top: 5px;
-    font-size: xx-large;
+    font-size: large;
 }
 h2 {   
     color: black;
-    font-size: xx-large;
+    font-size: large;
 }
 h3 {     
     color: #FE5F55;
@@ -43,7 +43,7 @@ h3 {
 
 #homeParagraph {    
     font-family:"Original Surfer", georgia, sans-serif;
-    font-size: xx-large;
+    font-size: large;
      
 }
 header {
@@ -96,7 +96,7 @@ body {
     border: 3px solid #c1beba; /* light gray */
     box-shadow: 5px 5px 5px #999;
     background-color: #0fc7ce;
-    font-size: xx-large;
+    font-size: large;
 }
 
 main {
